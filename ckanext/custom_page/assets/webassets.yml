@@ -1,0 +1,14 @@
+# custom_page-js:
+#   filter: rjsmin
+#   output: ckanext-custom_page/%(version)s-custom_page.js
+#   contents:
+#     - js/custom_page.js
+#   extra:
+#     preload:
+#       - base/main
+
+# custom_page-css:
+#   filter: cssrewrite
+#   output: ckanext-custom_page/%(version)s-custom_page.css
+#   contents:
+#     - css/custom_page.css
